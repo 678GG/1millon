@@ -1,0 +1,55 @@
+.hdr-main-content-bc, .logo {
+    height: 49px!important;
+    padding: 5px;
+}
+
+.header-bc {
+    padding: 0 25px!important;
+
+}
+
+.nav-content-bc, .nav-content-bc .nav-menu-container .nav-menu-sub {
+    border-bottom: 2px solid #ff64ff;
+box-shadow: 3px 3px 30px 0 #000!important;
+}
+
+.nav-menu-container.header-navigation:first-child {
+    position: relative;
+    border-radius: 4px;
+    z-index: 1;
+    background: linear-gradient(90deg, hsla(333, 71%, 58%, 1) 0%, hsla(211, 99%, 58%, 1) 100%) !important;
+}
+
+#chat_window_container{
+    position: fixed;
+    border: 0px;
+    z-index: 2147483642;
+    bottom: 87.5px !important;
+    right: 0px !important;
+    width: 385px;
+    height: 605px;
+    max-width: calc(100% - 312.5px);
+    max-height: calc(100% - -47.5px);
+
+}
+#chat_button_adaptive_container{
+    width: 110px;
+    height: 110px;
+    position: fixed;
+    border: none;
+    z-index: 2147483642;
+    right: 0px !important;
+    bottom: 0px !important;
+}
+
+
+nav-menu-container.header-navigation:first-child .nav-menu-other>.nav-menu-item.active, .nav-menu-container.header-navigation:first-child .nav-menu>li>.nav-menu-item.active {
+    color: #ffffff !important;
+    background: #1a1a2a !important;
+}
+
+/* affilliate buttonn size change by partner request */
+.header-icon>img {
+    width: 225% !important;
+}
+
